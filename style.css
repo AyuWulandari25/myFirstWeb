@@ -1,0 +1,152 @@
+.navbar-brand{
+    font-family: 'viga';
+    font-size: 32px;
+    color: white !important;
+}
+
+.navbar{
+    background-color: #63aa79;
+}
+
+.nav-link {
+    color:white !important;
+    font-family: 'viga';
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color :rgba(0,  0, 0, 0.5) !important;
+}
+
+.jumbotron{
+    background-image: url(./img/jumbotron.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 50px;
+    font-weight: 250;
+    text-shadow: 1px 1px 1px rgba(0,  0, 0, 0.5);
+}
+
+.jumbotron .display-4 span {
+    font-weight: 600;
+}
+
+.content-sidebar .card {
+    margin-left: 25px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 60px;
+    line-height: 30px;
+}
+
+.fab {
+    padding: 20px 30px;
+}
+
+.card-header {
+    font-size: 20px;
+}
+
+.for-name {
+    margin-left: 10px !important;
+}
+
+.user {
+    width: 15%;
+    margin: 20px 0px 0px 0px;
+}
+
+.user-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.user-comment {
+    padding-bottom: 15px;
+}
+.card-header {
+    text-align: center;
+}
+
+.komen {
+    text-align: center;
+}
+
+/* artikel */
+
+h1 {
+    font-size: 27px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.container-image, .container-content{
+    margin-left: 50px;
+}
+
+.container-content, .my-profile{
+    margin-top: 15px;
+    text-align: justify !important;
+}
+
+.author {
+    margin-left: 50px;
+}
+    
+.article-image {
+    width: 350px;
+    height: auto;
+    margin-top: 5px;  
+}
+
+p .last {
+    margin-bottom: 30px;
+}
+
+/* aboutme */
+.aboutme-image {
+    background-image: url(./img/tembok.jpg);
+    background-size: cover;
+}
+
+.my-image {
+    margin-left: 70px;
+}
+
+.contact {
+    margin-right: 60px;
+}
+
+.rounded-custom {
+    border-radius: 2rem;
+    
+}
+
+@media (max-width: 575.98px) {
+    .jumbotron .judul{
+        font-size: 40px;
+    }
+
+    .article-container h1.future {
+       margin:0 !important;
+    }
+    .article-container .author {
+       margin:20px 0 0 0 !important;
+    }
+    .article-container .container-image {
+       margin:20px 0 0 0 !important;
+    }
+    .article-container .container-content {
+       margin:20px 0 0 0 !important;
+    }
+}
+

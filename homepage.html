@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGrotalk</title>
+ 
+    <!-- My Botstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">     
+
+    <!-- My Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,200&display=swap" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- css sweetalert -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> 
+
+
+    
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light " style="background:#63aa79;">
+            <a class="navbar-brand ml-2" href="#">AGrotalk</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse "id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto mr-5">
+                    <a class="nav-link" href="./homepage.html">Home</a>
+                    <a class="nav-link" href="./aboutme.html">About me</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container" id="this-alert">
+            <div class="alert alert-1 alert-info mt-2 ">
+                <strong>Hallo, Thank you for comming</strong>
+                <button type="button" class="close"><span>&times;</span></button>
+            </div>
+            <div class="alert alert-2 alert-info mt-2">
+                <strong>Don't forget to comment</strong>
+                <button type="button" class="close"><span>&times;</span></button>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid col-xs-12">
+            <div class="container">
+                <h1 class="display-4 judul">Good <span>Agriculture</span> Practice <br> For <span>Good</span> life </h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 article">
+                    <div class="content-article">
+                            
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 sidebar">
+                    <div class="content-sidebar">
+                        <div class="card mt-4" style="width: 18rem;">
+                            <div class="card-header text-center">
+                                <h6>Find me</h6> 
+                            </div>
+                                <span class="icon">
+                                    <a href="https://www.facebook.com/ayuwulandariwilliam"><i class="fab fa-facebook-f fa-2x"></i></a> 
+                                    <a href="https://wa.wizard.id/4c7490"><i class="fab fa-whatsapp fa-2x"></i></a> 
+                                    <a href="https://www.instagram.com/p/B9YEhobpg34/?igshid=5cv6ay0m0g5z"><i class="fab fa-instagram fa-2x"></i></a> 
+                                </span>   
+                        </div>
+                        <div class="card bg-light mt-4 mb-5" style="width: 18rem;">
+                            <form class="form-comment">
+                                <div class="card-header">
+                                    <h6>Comment Here</h6> 
+                                </div>
+                                <div class="form-group-name">
+                                    <label class="label-name p-3">Name</label>
+                                    <input type="text" class="for-name" value="">
+                                </div>
+                                <div class="form-group-comment">
+                                    <label class="label-comment p-2">Comment</label>
+                                    <input type="text" class="for-comment" value="">
+                                </div>
+                                    <button type="submit" class="btn btn-primary submit-tombol m-3">Submit</button>
+                            </form>                         
+                        </div>
+                        <div class="comment border shadow mt-4 mb-5 ml-4 text-center" style="width: 18rem;">
+                            <div class="card-header bg-light">
+                                <h6>Top Comment</h6> 
+                            </div>
+                            <img class="user" src="./img/user.png" alt="">
+                            <p class="user-name">Ayu</p>
+                            <p class="user-comment text-center">Worth it bro!!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </main>
+    <footer>      
+        <div class="p-2 text-center" style="background-color: #63aa79;">
+            <span class="text-light">2021 AGrotalk. Good Agriculture Practice.</span>
+        </div>        
+    </footer>
+  
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./postpreview.js"></script>
+    <script src="./homepage.js"></script>
+</body>
+</html>
